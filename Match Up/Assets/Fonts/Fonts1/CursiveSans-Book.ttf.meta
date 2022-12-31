@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: af4faafa88a6ed646bb170d5bfe266af
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Cursive Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f95e11af474f8244682d3dbdd103cb8d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
