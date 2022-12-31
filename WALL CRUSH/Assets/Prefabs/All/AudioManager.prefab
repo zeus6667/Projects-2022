@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3690401168018026578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3690401168018026589}
+  - component: {fileID: 3690401168018026588}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3690401168018026589
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3690401168018026578}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3690401168018026588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3690401168018026578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 122f9b4b0c663e544b063f19f6ec5340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound:
+  - name: Theme1
+    clip: {fileID: 8300000, guid: 7a67e55a1d4380f4fab6e7f61fa0bf22, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Theme2
+    clip: {fileID: 8300000, guid: 28972d1f68998ae40b9d4d7cf0fe04d3, type: 3}
+    volume: 0.468
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 0ad2fd59f9af7504c9426a961194cd1b, type: 3}
+    volume: 0.468
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: bullet
+    clip: {fileID: 8300000, guid: 50825f02f30e94b4b8b6180bdbe64603, type: 3}
+    volume: 0.468
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: teleport
+    clip: {fileID: 8300000, guid: 4f583f7a02909f243b08180d31f0eb98, type: 3}
+    volume: 0.468
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
